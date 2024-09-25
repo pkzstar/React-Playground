@@ -3,7 +3,7 @@ function Footer() {
 
     return(
         <footer>
-            <p>&copy; Your Wesbsite name</p>
+            <p className="center">&copy; {new Date().getFullYear()} Your Wesbsite name</p>
         </footer>
     );
 }
