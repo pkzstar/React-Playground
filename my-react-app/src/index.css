@@ -133,3 +133,21 @@ button:focus-visible {
 .categoryHeader {
   display: inline-flex;
 }
+.counter-container {
+  text-align: center;
+  font-family: sans-serif;
+}
+.count-display {
+  font-size: 3em;
+  margin: 0;
+}
+.counter-button {
+  margin: 10px;
+}
+button {
+  background-color: #747bff;
+  border: #ffffff;
+  border-width: 1px;
+  border-style: groove;
+  box-shadow: black 5px 5px 5px;
+}

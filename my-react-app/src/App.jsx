@@ -7,6 +7,11 @@ import Footer from "./Footer.jsx";
 import Student from "./Student.jsx";
 import UserGreeting from "./UserGreeting.jsx";
 import List from "./List.jsx";
+// import Button from "./button.jsx";
+import ProfilePicture from "./ProfilePicture.jsx";
+import MyComponent from "./MyComponent.jsx";
+import Counter from "./Counter.jsx";
+import OnChange from "./OnChange.jsx";
 
 function App() {
  
@@ -35,14 +40,16 @@ function App() {
        <Header/>
        <UserGreeting isLoggedIn={true} username="Joe Sparrow"/>
        <div className="grid">
-       <List items={fruits} category="Fruits"/>
-       <List items={vegetables} category="vegetables"/> 
+       {fruits.length > 0 && <List items={fruits} category="Fruits"/>}
+       {fruits.length > 0 && <List items={vegetables} category="vegetables"/>}
        </div>
-       
-
+       <OnChange />
        <hr></hr>
        {/* <Food/> */}
        {/* <Card/> */}
+       <MyComponent/>
+       <ProfilePicture />
+       <Counter />
        <Student name="Spongebob" imageSrc={SpongeBobImg} age={30} isStudent={true}/>
        <Student name="Patrick" imageSrc={PatImg} age={42} isStudent={false}/>
        <Student name="Squidward" imageSrc={SquidImg} age={50} isStudent={false}/>
