@@ -12,6 +12,8 @@ import ProfilePicture from "./ProfilePicture.jsx";
 import MyComponent from "./MyComponent.jsx";
 import Counter from "./Counter.jsx";
 import OnChange from "./OnChange.jsx";
+import ColorPicker from "./ColorPicker.jsx";
+import ObjectUpdate from "./ObjectUpdate.jsx";
 
 function App() {
  
@@ -45,6 +47,7 @@ function App() {
        </div>
        <OnChange />
        <hr></hr>
+       <ColorPicker/>
        <Food/>
        {/* <Card/> */}
        <MyComponent/>
@@ -54,7 +57,7 @@ function App() {
        <Student name="Patrick" imageSrc={PatImg} age={42} isStudent={false}/>
        <Student name="Squidward" imageSrc={SquidImg} age={50} isStudent={false}/>
        <Student name="Sandy" imageSrc={SandyImg} age={27} isStudent={true}/>
-       <Student/>
+       <ObjectUpdate/>
        <hr></hr>
        <Footer/>
     </>
