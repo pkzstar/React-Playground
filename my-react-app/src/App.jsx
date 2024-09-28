@@ -2,7 +2,6 @@
 
 import Header from "./Header.jsx"
 import Footer from "./Footer.jsx";
-import Food from "./Food.jsx";
 // import Card from "./Card.jsx";
 import Student from "./Student.jsx";
 import UserGreeting from "./UserGreeting.jsx";
@@ -14,6 +13,7 @@ import Counter from "./Counter.jsx";
 import OnChange from "./OnChange.jsx";
 import ColorPicker from "./ColorPicker.jsx";
 import ObjectUpdate from "./ObjectUpdate.jsx";
+import FoodArray from "./Food.jsx";
 
 function App() {
  
@@ -48,7 +48,7 @@ function App() {
        <OnChange />
        <hr></hr>
        <ColorPicker/>
-       <Food/>
+       <FoodArray/>
        {/* <Card/> */}
        <MyComponent/>
        <ProfilePicture />
