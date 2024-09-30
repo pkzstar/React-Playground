@@ -12,8 +12,10 @@ import MyComponent from "./MyComponent.jsx";
 import Counter from "./Counter.jsx";
 import OnChange from "./OnChange.jsx";
 import ColorPicker from "./ColorPicker.jsx";
-import ObjectUpdate from "./ObjectUpdate.jsx";
+// import ObjectUpdate from "./ObjectUpdate.jsx";
 import FoodArray from "./Food.jsx";
+import ListCars from "./Cars.jsx";
+import ToDoList from "./ToDoList.jsx";
 
 function App() {
  
@@ -46,6 +48,7 @@ function App() {
        {fruits.length > 0 && <List items={vegetables} category="vegetables"/>}
        </div>
        <OnChange />
+       <ToDoList/>
        <hr></hr>
        <ColorPicker/>
        <FoodArray/>
@@ -57,7 +60,8 @@ function App() {
        <Student name="Patrick" imageSrc={PatImg} age={42} isStudent={false}/>
        <Student name="Squidward" imageSrc={SquidImg} age={50} isStudent={false}/>
        <Student name="Sandy" imageSrc={SandyImg} age={27} isStudent={true}/>
-       <ObjectUpdate/>
+       <ListCars/>
+       {/* <ObjectUpdate/> */}
        <hr></hr>
        <Footer/>
     </>

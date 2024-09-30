@@ -45,6 +45,7 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin: 5px;
 }
 button:hover {
   border-color: #646cff;
@@ -180,4 +181,23 @@ width: 50px;
 height: 50px;
 border-radius: 10px;
 background-color: transparent;
+}
+.move-button-up {
+  background: none;
+  border: transparent;
+  box-shadow: none;
+  margin: unset;
+  padding: unset;
+}
+.move-button-down {
+  background: none;
+  border: transparent;
+  box-shadow: none;
+  margin: unset;
+  padding: unset;
+}
+.delete-button {
+  box-shadow: none;
+  margin: 5px;
+  padding: 5px;
 }
