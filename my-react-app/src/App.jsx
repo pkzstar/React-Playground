@@ -16,6 +16,7 @@ import ColorPicker from "./ColorPicker.jsx";
 import FoodArray from "./Food.jsx";
 import ListCars from "./Cars.jsx";
 import ToDoList from "./ToDoList.jsx";
+import Effect from "./Effect.jsx";
 
 function App() {
  
@@ -48,6 +49,7 @@ function App() {
        {fruits.length > 0 && <List items={vegetables} category="vegetables"/>}
        </div>
        <OnChange />
+       <Effect />
        <ToDoList/>
        <hr></hr>
        <ColorPicker/>
