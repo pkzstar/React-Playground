@@ -201,3 +201,22 @@ background-color: transparent;
   margin: 5px;
   padding: 5px;
 }
+.clock-container {
+  background-image: url("https://preview.redd.it/3qh2noiyncka1.jpg?width=1080&crop=smart&auto=webp&s=1da43a733123bbf290dc775688bdb734ab7d1b1c");
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  border-radius: 10px;
+  background-position: 500px 500px;
+}
+.clock {
+  margin-right: auto;
+border-radius: 10px;
+padding: 0px 10px 0 10px;
+}
+.digits { 
+  color: #000000;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+}

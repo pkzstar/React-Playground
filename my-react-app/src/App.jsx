@@ -17,6 +17,7 @@ import FoodArray from "./Food.jsx";
 import ListCars from "./Cars.jsx";
 import ToDoList from "./ToDoList.jsx";
 import Effect from "./Effect.jsx";
+import DigiClock from "./DigitalClock.jsx";
 
 function App() {
  
@@ -44,6 +45,7 @@ function App() {
     <>
        <Header/>
        <UserGreeting isLoggedIn={true} username="Joe Sparrow"/>
+       <DigiClock />
        <div className="grid">
        {fruits.length > 0 && <List items={fruits} category="Fruits"/>}
        {fruits.length > 0 && <List items={vegetables} category="vegetables"/>}
