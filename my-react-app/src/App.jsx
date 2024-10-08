@@ -18,6 +18,12 @@ import ListCars from "./Cars.jsx";
 import ToDoList from "./ToDoList.jsx";
 import Effect from "./Effect.jsx";
 import DigiClock from "./DigitalClock.jsx";
+import Ref from "./Ref.jsx";
+// import ContextA from "./ContextA.jsx";
+// import ContextB from "./ContextB.jsx";
+// import ContextC from "./ContextC.jsx";
+import StopWatch from "./StopWatch.jsx"
+
 
 function App() {
  
@@ -43,9 +49,16 @@ function App() {
 
   return(
     <>
+           {/* <ContextA />
+           <ContextB />
+           <ContextC /> */}
+
        <Header/>
        <UserGreeting isLoggedIn={true} username="Joe Sparrow"/>
        <DigiClock />
+       <StopWatch />
+
+       <Ref />
        <div className="grid">
        {fruits.length > 0 && <List items={fruits} category="Fruits"/>}
        {fruits.length > 0 && <List items={vegetables} category="vegetables"/>}
@@ -56,6 +69,8 @@ function App() {
        <hr></hr>
        <ColorPicker/>
        <FoodArray/>
+
+
        {/* <Card/> */}
        <MyComponent/>
        <ProfilePicture />
